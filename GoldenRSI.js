@@ -1,5 +1,5 @@
 //@version=5
-indicator(title='Relative Strength Index', shorttitle='Golden RSI', format=format.price, precision=2, timeframe='')
+indicator(title='Relative Strength Index', shorttitle='Golden RSI', overlay=false, format=format.price, precision=2, timeframe='')
 
 
 rsiLength = input.int(14, minval=1, title='Length')
